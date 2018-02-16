@@ -91,6 +91,8 @@ alias cd....='cd ../../..'
 alias cd.....='cd ../../../..'
 alias sl=ls
 
+# Source custom env
+source ~/.env
 
 function mcd() {
     mkdir -p "$1" && cd "$1";
